@@ -11,6 +11,7 @@ var Chaincode = class {
 
   // Initialize the chaincode
   async Init(stub) {
+      console.info('\nCalling Init : ferro boia');
       return shim.success(Buffer.from("Init success"));
   }
 
